@@ -1,74 +1,94 @@
 <!-- dia2.html -->
 <!DOCTYPE html>
 <html lang="es">
+<html lang="es">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Día 2</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Modelo Entidad Relación</h1>
-        <p>2.1. Relaciones entre entidades.</p>
-	<p>2.2. Relaciones de uno a muchos.</p>
-	<p>2.3. Relaciones de muchos a muchos.</p>
-	<p>2.4. Relaciones de uno a uno.</p>
-	    <p> Modificacion de el archivo </p>
-	    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DESARROLLADORES (Presentación Vertical)</title>
+    <title>Listado de Desarrolladores</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
+            background-color: #f0f2f5;
+            padding: 20px;
+            margin: 0;
         }
-        .desarrollador {
-            background-color: #fff;
-            padding: 15px;
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .empleado {
+            background-color: #ffffff;
+            border: 1px solid #dcdcdc;
+            border-radius: 8px;
+            padding: 20px;
             margin-bottom: 20px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-        .desarrollador h2 {
-            margin-top: 0;
-            color: #4CAF50;
+
+        .empleado p {
+            margin: 8px 0;
+            font-size: 16px;
         }
-        .desarrollador p {
-            font-size: 1.1em;
-            margin: 5px 0;
-        }
-        .desarrollador {
+
+        .empleado span {
             font-weight: bold;
+            color: #34495e;
         }
+
+        .definicion {
+            background-color: #ecf0f1;
+            border-left: 5px solid #2980b9;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+
+        .definicion h2 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+
     </style>
 </head>
 <body>
 
-    <h1>Desarrollador</h1>
+    <div class="container">
+        <h1>Listado de Desarrolladores</h1>
 
-    <div class="empleado">
-        <h2>Desarrollador 1</h2>
-        <p><span>ID:</span> 1</p>
-        <p><span>Nombre:</span> Andres Felipe Alfonso</p>
-        <p><span>Puesto:</span> Desarrollador</p>
-        <p><span>Años:</span> 21</p>
+        <div class="empleado">
+            <h2>Desarrollador 1</h2>
+            <p><span>ID:</span> 1</p>
+            <p><span>Nombre:</span> Andres Felipe Alfonso</p>
+            <p><span>Puesto:</span> Desarrollador</p>
+            <p><span>Años:</span> 21</p>
+        </div>
+
+        <div class="empleado">
+            <h2>Desarrollador 2</h2>
+            <p><span>ID:</span> 2</p>
+            <p><span>Nombre:</span> Santiago Gutierrez</p>
+            <p><span>Puesto:</span> Desarrollador</p>
+            <p><span>Años:</span> 20</p>
+        </div>
+
+        <div class="definicion">
+            <h2>Definición de Relación Uno a Uno</h2>
+            <p>
+                En bases de datos, una <strong>relación uno a uno</strong> ocurre cuando un registro en una tabla 
+                se asocia con un único registro en otra tabla. Esto significa que cada fila de una tabla 
+                está vinculada exclusivamente a una sola fila de la otra tabla, y viceversa. 
+                Este tipo de relación se implementa mediante el uso de claves primarias y foráneas, 
+                donde la clave primaria de una tabla puede actuar como clave foránea en la otra tabla.
+            </p>
+        </div>
     </div>
 
-    <div class="empleado">
-        <h2>Desarrollador 2 2</h2>
-        <p><span>ID:</span> 2</p>
-        <p><span>Nombre:</span>Santiago gutierrez</p>
-        <p><span>Puesto:</span> Desarrolar2</p>
-        <p><span>Años:</span> 20</p>
-    </div>
-<p> Definicion relacion uno a uno</p>
-	<p> En bases de datos, una relación uno a uno ocurre cuando un registro en una tabla 
-se asocia con un único registro en otra tabla.
- Esto significa que cada fila de una tabla está vinculada a una sola fila de la otra tabla, y viceversa.
- Esta relación se implementa mediante el uso de claves primarias y foráneas
- donde la clave primaria de una tabla puede ser la clave foránea en la otra tabla.</p>
 </body>
 </html>

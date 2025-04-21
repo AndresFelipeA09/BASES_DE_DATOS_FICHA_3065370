@@ -30,6 +30,8 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 28. 👺 **Jhoan Noscue**
 29. ⚽​ **Jeremy Lopez**
 30. 🐱‍👤 **Daniel Pedreros**
+31. 🔮 **Elkin Gutierrez**
+32. ⚡​ ** Andres Alfonso**
 37. **Señor Lapiz***
 
 
